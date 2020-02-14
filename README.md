@@ -6,7 +6,7 @@ gebruikt van ElasticSearch om de data in op te slaan en queries op los te laten.
 ## Installatie
 
 ```
-> npm run install
+> npm install
 ```
 
 ### 
