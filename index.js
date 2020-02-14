@@ -35,12 +35,12 @@ async function addDataToElastic(){
     const [indexed_urls, indexed_fis] = await Handler.convertDataFromSitemap();
 
     // Create Elasticsearch client and an index
-    const client = Elastic.createElasticsearchClient(config.ELASTICSEARCH_HOST);
+    /*const client = Elastic.createElasticsearchClient(config.ELASTICSEARCH_HOST);
     Elastic.createElasticsearchIndex(client, config.URL_INDEX);
     Elastic.createElasticsearchIndex(client, config.FRAGMENT_IDENTIFIER_INDEX);
 
 
     // Add data in bulk mode to Elasticsearch
     Elastic.addDataInBulkMode(client, indexed_urls, config.URL_INDEX, config.URL_TYPE);
-    Elastic.addDataInBulkMode(client, indexed_fis, config.FRAGMENT_IDENTIFIER_INDEX, config.FRAGMENT_IDENTIFIER_TYPE);
+    Elastic.addDataInBulkMode(client, indexed_fis, config.FRAGMENT_IDENTIFIER_INDEX, config.FRAGMENT_IDENTIFIER_TYPE);*/
 }
