@@ -1,0 +1,32 @@
+{
+  "name": "oslo-search-engine-elastic",
+  "version": "1.0.0",
+  "description": "This project serves as the back-end for the OSLO search engine. In this project the website data.vlaanderen.be will be crawled and a sitemap will be generated. This sitemap will be converted to a JSON structure and then added in Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawling",
+    "sitemap",
+    "data.vlaanderen.be",
+    "elasticsearch",
+    "oslo",
+    "search",
+    "engine"
+  ],
+  "author": "Dwight Van Lancker -- Informatie Vlaanderen",
+  "license": "MIT",
+  "dependencies": {
+    "advanced-sitemap-generator": "^1.6.9",
+    "elasticsearch": "^16.6.0",
+    "es6-promise": "^4.2.8",
+    "get-hrefs": "^4.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "node-cron": "^2.0.3",
+    "xml-writer": "^1.7.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {}
+}
