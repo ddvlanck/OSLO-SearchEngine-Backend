@@ -1,4 +1,4 @@
-# OSLO Search Engine Backend
+# OSLO Zoekmachine - Backend
 
 De zoekmachine voor OSLO (Open Standaarden voor Linkende Organisaties) bestaat uit 3 delen:
 1. **Elasticsearch**
